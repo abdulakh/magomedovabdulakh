@@ -33,7 +33,7 @@ class Character
   int get age=> 2022-birthYear;
   String _gender="...";
   String get gender=>_gender;
-  set (int val)
+  set gender(String val)
   {
     if(val=='male')
       {
